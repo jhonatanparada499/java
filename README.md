@@ -1,3 +1,4 @@
-## Java
+## Notes from Absolute Java Book
 
-This is the official documentation for this project.
+Current page: 324
+Title: Class Parameters
