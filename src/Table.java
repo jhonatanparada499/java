@@ -8,6 +8,14 @@ import java.util.StringTokenizer;
 
 public class Table {
   public static void main(String[] args) {
+    // class variables pointing to the same object memory address
+    ToyClass var1 = new ToyClass("Joe", 42);
+    ToyClass var2 = var1;
+    var2.set("Josephine", 1);
+    System.out.println(var1);
+    
+    System.exit(0);
+
     DateFirstTry date2 = new DateFirstTry(
         1, 1, 1),
         date3 = new DateFirstTry();
@@ -16,8 +24,6 @@ public class Table {
     System.out.println("Enter a line message");
     String s = keyboard.nextLine();
     System.out.println(s);
-
-    System.exit(0);
 
     date2.setDate(1, 1, 1);
     date3.setDate(2, 1, 1);
