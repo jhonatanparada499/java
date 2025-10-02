@@ -11,7 +11,7 @@ public class Table {
     // class variables pointing to the same object memory address
     ToyClass var1 = new ToyClass("Joe", 42);
     ToyClass var2 = var1;
-    var2.set("Josephine", 1);
+    var2.set("Josephine", 2);
     System.out.println(var1);
     
     System.exit(0);
