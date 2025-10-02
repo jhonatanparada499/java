@@ -11,13 +11,22 @@ public class App {
     // working with arrays
     
     System.exit(0);
-
-    // class variables pointing to the same object memory address
+    
+    /*
+     * ========================================
+     * CHAPTER 5: Classes II
+     * ========================================
+     */
     ToyClass var1 = new ToyClass("Joe", 42);
     ToyClass var2 = var1;
     var2.set("Josephine", 2);
     System.out.println(var1);
 
+    /*
+     * ========================================
+     * CHAPTER 4: Classes I
+     * ========================================
+     */
     DateFirstTry date2 = new DateFirstTry(
         1, 1, 1),
         date3 = new DateFirstTry();
