@@ -6,7 +6,7 @@
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Table {
+public class App {
   public static void main(String[] args) {
     // class variables pointing to the same object memory address
     ToyClass var1 = new ToyClass("Joe", 42);
