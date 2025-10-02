@@ -8,13 +8,15 @@ import java.util.StringTokenizer;
 
 public class App {
   public static void main(String[] args) {
+    // working with arrays
+    
+    System.exit(0);
+
     // class variables pointing to the same object memory address
     ToyClass var1 = new ToyClass("Joe", 42);
     ToyClass var2 = var1;
     var2.set("Josephine", 2);
     System.out.println(var1);
-    
-    System.exit(0);
 
     DateFirstTry date2 = new DateFirstTry(
         1, 1, 1),
