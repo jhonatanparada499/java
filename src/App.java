@@ -8,8 +8,11 @@ import java.util.StringTokenizer;
 
 public class App {
   public static void main(String[] args) {
-    // working with arrays
-    
+    /*
+     * ========================================
+     * CHAPTER 6: Arrays
+     * ========================================
+     */
     System.exit(0);
     
     /*
