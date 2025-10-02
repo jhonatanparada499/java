@@ -13,6 +13,17 @@ public class App {
      * CHAPTER 6: Arrays
      * ========================================
      */
+    char[] chars = {'H', 'i', ' ', 'w', 'o','r','l','d'};
+    String st = new String(chars, 1, 2);
+    System.out.println(st);
+    
+    double[] a = new double[4];
+    double[] b = new double[2];
+    b[0] = 5.0;
+    
+    for (int i = 0; i < b.length; ++i) {
+      a[i] = i;
+    }
     System.exit(0);
     
     /*
