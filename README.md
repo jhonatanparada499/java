@@ -2,6 +2,6 @@
 
 **Skipped pages**: 326 skipped until 364
 
-Class page: 379 
+**Current page**: 424 Enumerated Types
 
 Title: Class Parameters
