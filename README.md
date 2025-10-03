@@ -4,4 +4,4 @@
 
 **Current page**: 424 Enumerated Types
 
-Title: Class Parameters
+**Class page**: 379 Arrays
