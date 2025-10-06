@@ -7,25 +7,29 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class App {
+  enum WorkDay {
+    MONDAY, TUESDAY, WENDNESDAY
+  };
+
   public static void main(String[] args) {
+    System.exit(0);
     /*
      * ========================================
-     * CHAPTER 6: Arrays
+     * CHAPTER 6: Arrays and Enumerated Types
      * ========================================
      */
-    char[] chars = {'H', 'i', ' ', 'w', 'o','r','l','d'};
+    double[][] a = new double[1][];
+    // double[] b = new double[1];
+    a[0] = new double[1];
+    System.out.println(a[0]);
+
+    // WorkDay startDay = WorkDay.MONDAY;
+    System.out.println(WorkDay.valueOf("MONDAY"));
+
+    char[] chars = { 'H', 'i', ' ', 'w', 'o', 'r', 'l', 'd' };
     String st = new String(chars, 1, 2);
     System.out.println(st);
-    
-    double[] a = new double[4];
-    double[] b = new double[2];
-    b[0] = 5.0;
-    
-    for (int i = 0; i < b.length; ++i) {
-      a[i] = i;
-    }
-    System.exit(0);
-    
+
     /*
      * ========================================
      * CHAPTER 5: Classes II
