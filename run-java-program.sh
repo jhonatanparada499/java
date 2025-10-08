@@ -6,7 +6,7 @@ javac src/*.java -d bin/
 # cd into bin
 cd bin
 
-# Run App
+# Run app
 java App
 
 # Go back to project directory
