@@ -11,8 +11,19 @@ public class App {
     MONDAY, TUESDAY, WENDNESDAY
   };
 
+  static void method() {
+    System.out.println("Hello");
+  }
+
   public static void main(String[] args) {
+    /*
+     * ========================================
+     * CHAPTER 7: Inheritance
+     * ========================================
+     */
+
     System.exit(0);
+
     /*
      * ========================================
      * CHAPTER 6: Arrays and Enumerated Types
