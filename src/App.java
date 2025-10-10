@@ -11,10 +11,6 @@ public class App {
     MONDAY, TUESDAY, WENDNESDAY
   };
 
-  static void method() {
-    System.out.println("Hello");
-  }
-
   public static void main(String[] args) {
     /*
      * ========================================
