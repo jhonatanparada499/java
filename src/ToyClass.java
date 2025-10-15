@@ -12,8 +12,7 @@ public class ToyClass {
   }
 
   public ToyClass() {
-    name = "No name yet.";
-    number = 0;
+    this("No name yet", 0);
   }
 
   public void set(String newName, int newNumber) {
