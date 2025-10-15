@@ -11,6 +11,11 @@ public class ToyClass {
     number = initialNumber;
   }
 
+  public ToyClass(ToyClass toy) {
+    name = toy.name;
+    number = toy.number;
+  }
+
   public ToyClass() {
     this("No name yet", 0);
   }
