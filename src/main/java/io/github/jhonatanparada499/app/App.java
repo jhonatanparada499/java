@@ -1,3 +1,4 @@
+package main.java.io.github.jhonatanparada499.app;
 /**
  * @author Jhonatan Parada <jhonatanparada499@gmail.com>
  */
@@ -17,7 +18,8 @@ public class App {
      * CHAPTER 7: Inheritance
      * ========================================
      */
-
+    ToyClass t1 = new ToyClass();
+    t1.set("Jhonatan", 3);
     System.exit(0);
 
     /*

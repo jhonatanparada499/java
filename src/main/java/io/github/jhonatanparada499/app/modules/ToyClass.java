@@ -20,6 +20,7 @@ public class ToyClass {
     this("No name yet", 0);
   }
 
+  // default access
   public void set(String newName, int newNumber) {
     name = newName;
     number = newNumber;
@@ -29,9 +30,9 @@ public class ToyClass {
     return (name + " " + number);
   }
 
-  public static void changer(ToyClass aParameter) {
-    aParameter.name = "Hot Shot";
-    aParameter.number = 42;
+  public static void changer(ToyClass toy) {
+    toy.name = "Hot Shot";
+    toy.number = 42;
   }
 
   public boolean equals(ToyClass otherObject) {
