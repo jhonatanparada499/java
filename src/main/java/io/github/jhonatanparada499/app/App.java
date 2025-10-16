@@ -18,8 +18,8 @@ public class App {
      * CHAPTER 7: Inheritance
      * ========================================
      */
-    ToyClass t1 = new ToyClass();
-    t1.set("Jhonatan", 3);
+    // ToyClass t1 = new ToyClass();
+    // t1.set("Jhonatan", 3);
     System.exit(0);
 
     /*
