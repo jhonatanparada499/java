@@ -8,6 +8,8 @@ package com.mycompany.app;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+import com.mycompany.app.modules.ToyClass;
+
 public class App {
   enum WorkDay {
     MONDAY, TUESDAY, WENDNESDAY
@@ -19,8 +21,9 @@ public class App {
      * CHAPTER 7: Inheritance
      * ========================================
      */
-    // ToyClass t1 = new ToyClass();
-    // t1.set("Jhonatan", 3);
+    ToyClass t1 = new ToyClass();
+    t1.set("Jhonatan", 3);
+    System.out.println(t1.toString());
     System.exit(0);
 
     /*
