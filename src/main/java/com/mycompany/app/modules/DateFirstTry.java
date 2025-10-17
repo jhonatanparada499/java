@@ -1,3 +1,5 @@
+package com.mycompany.app.modules;
+
 /**
  * @author Jhonatan Parada Torres <jhonatanparada499@gmail.com>
  */
