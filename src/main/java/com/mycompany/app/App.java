@@ -8,7 +8,7 @@ package com.mycompany.app;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-import com.mycompany.app.modules.ToyClass;
+import com.mycompany.app.modules.Toy;
 
 public class App {
   enum WorkDay {
@@ -21,7 +21,7 @@ public class App {
      * CHAPTER 7: Inheritance
      * ========================================
      */
-    ToyClass t1 = new ToyClass();
+    Toy t1 = new Toy();
     // set() has default access or package access
     // t1.set("Jhonatan", 3);
     System.out.println(t1.toString());
@@ -50,8 +50,8 @@ public class App {
      * CHAPTER 5: Classes II
      * ========================================
      */
-    // ToyClass var1 = new ToyClass("Joe", 42);
-    // ToyClass var2 = var1;
+    // Toy var1 = new Toy("Joe", 42);
+    // Toy var2 = var1;
     // var2.set("Josephine", 2);
     // System.out.println(var1);
 
@@ -60,9 +60,9 @@ public class App {
      * CHAPTER 4: Classes I
      * ========================================
      */
-    // DateFirstTry date2 = new DateFirstTry(
+    // Date date2 = new Date(
     // 1, 1, 1),
-    // date3 = new DateFirstTry();
+    // date3 = new Date();
 
     Scanner keyboard = new Scanner(System.in);
     System.out.println("Enter a line message");
