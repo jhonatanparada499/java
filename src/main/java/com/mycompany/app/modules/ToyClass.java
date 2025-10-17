@@ -23,7 +23,7 @@ public class ToyClass {
   }
 
   // default access
-  public void set(String newName, int newNumber) {
+  void set(String newName, int newNumber) {
     name = newName;
     number = newNumber;
   }

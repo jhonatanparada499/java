@@ -30,6 +30,8 @@ public class DateFirstTry {
   }
 
   public void setDate(int month, int day, int year) {
+    ToyClass t1 = new ToyClass();
+    t1.set("JHon", 2);
     this.month = setMonth(month);
     this.day = day;
     this.year = year;

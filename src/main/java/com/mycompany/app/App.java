@@ -22,8 +22,10 @@ public class App {
      * ========================================
      */
     ToyClass t1 = new ToyClass();
-    t1.set("Jhonatan", 3);
+    // set() has default access or package access
+    // t1.set("Jhonatan", 3);
     System.out.println(t1.toString());
+
     System.exit(0);
 
     /*
