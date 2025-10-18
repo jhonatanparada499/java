@@ -18,6 +18,14 @@ public class App {
   public static void main(String[] args) {
     /*
      * ========================================
+     * CHAPTER 8: Polymorphism and Abstract Classes
+     * ========================================
+     */
+
+    System.exit(0);
+
+    /*
+     * ========================================
      * CHAPTER 7: Inheritance
      * ========================================
      */
@@ -26,8 +34,6 @@ public class App {
     // set() has default access or package access
     // t1.set("Jhonatan", 3);
     System.out.println(t1.equals(t2));
-
-    System.exit(0);
 
     /*
      * ========================================
