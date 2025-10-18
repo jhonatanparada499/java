@@ -38,6 +38,14 @@ public class Toy {
   }
 
   public boolean equals(Object otherObject) {
+    if (otherObject == null) {
+      return false;
+    }
+
+    if (otherObject.getClass() != this.getClass()) {
+      return false;
+    }
+
     Toy otherToy = (Toy) otherObject;
 
     return ((this.name.equals(otherToy.name))
