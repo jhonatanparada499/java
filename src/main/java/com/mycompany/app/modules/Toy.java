@@ -37,8 +37,10 @@ public class Toy {
     toy.number = 42;
   }
 
-  public boolean equals(Toy otherObject) {
-    return ((name.equals(otherObject.name))
-        && (number == otherObject.number));
+  public boolean equals(Object otherObject) {
+    Toy otherToy = (Toy) otherObject;
+
+    return ((this.name.equals(otherToy.name))
+        && (this.number == otherToy.number));
   }
 }
