@@ -1,4 +1,6 @@
 ./src/main/java/com/mycompany/app/App.java
 ./src/main/java/com/mycompany/app/modules/DerivedToy.java
+./src/main/java/com/mycompany/app/modules/Sale.java
 ./src/main/java/com/mycompany/app/modules/Date.java
+./src/main/java/com/mycompany/app/modules/DiscountSale.java
 ./src/main/java/com/mycompany/app/modules/Toy.java
