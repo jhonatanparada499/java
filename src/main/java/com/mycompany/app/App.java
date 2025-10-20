@@ -8,7 +8,9 @@ package com.mycompany.app;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-import com.mycompany.app.modules.Toy;
+import com.mycompany.app.modules.DiscountSale;
+// import com.mycompany.app.modules.Sale;
+// import com.mycompany.app.modules.Sale;
 
 public class App {
   enum WorkDay {
@@ -21,6 +23,10 @@ public class App {
      * CHAPTER 8: Polymorphism and Abstract Classes
      * ========================================
      */
+    // Sale s1 = new Sale();
+    DiscountSale d1 = new DiscountSale();
+
+    System.out.println(d1);
 
     System.exit(0);
 
@@ -29,11 +35,11 @@ public class App {
      * CHAPTER 7: Inheritance
      * ========================================
      */
-    Toy t2 = new Toy();
-    Toy t1 = new Toy();
+    // Toy t2 = new Toy();
+    // Toy t1 = new Toy();
     // set() has default access or package access
     // t1.set("Jhonatan", 3);
-    System.out.println(t1.equals(t2));
+    // System.out.println(t1.equals(t2));
 
     /*
      * ========================================
