@@ -44,6 +44,10 @@ public class Sale {
     return price;
   }
 
+  public Sale clone() {
+    return new Sale(this);
+  }
+
   /**
    * Precondition: newName is a nonempty string.
    */

@@ -33,10 +33,6 @@ public class DiscountSale extends Sale {
     System.out.println("This is the DiscountSale class.");
   }
 
-  public double getDiscount() {
-    return discount;
-  }
-
   public double bill() {
     double fraction = discount / 100;
     return (1 - fraction) * getPrice();
@@ -52,6 +48,14 @@ public class DiscountSale extends Sale {
       System.out.println("Error: Negative discount.");
       System.exit(0);
     }
+  }
+
+  public DiscountSale clone() {
+    return new DiscountSale(this);
+  }
+
+  public double getDiscount() {
+    return discount;
   }
 
   public String toString() {
