@@ -20,6 +20,30 @@ public class App {
   public static void main(String[] args) {
     /*
      * ========================================
+     * CHAPTER 9: Exception Handling Basics
+     * ========================================
+     */
+    Scanner keyboard = new Scanner(System.in);
+    int n = 0;
+    boolean done = false;
+
+    while (!done) {
+      try {
+        System.out.print("Enter a whole number: ");
+        n = keyboard.nextInt();
+        done = true;
+      } catch (Exception e) {
+        keyboard.nextLine();
+        System.out.println(e.getMessage());
+        System.out.println("Try Again");
+      }
+    }
+
+    System.out.println("You entered " + n);
+    keyboard.close();
+    System.exit(0);
+    /*
+     * ========================================
      * CHAPTER 8: Polymorphism and Abstract Classes
      * ========================================
      */
@@ -27,8 +51,6 @@ public class App {
     DiscountSale d1 = new DiscountSale();
 
     System.out.println(d1);
-
-    System.exit(0);
 
     /*
      * ========================================
@@ -77,7 +99,7 @@ public class App {
     // 1, 1, 1),
     // date3 = new Date();
 
-    Scanner keyboard = new Scanner(System.in);
+    // Scanner keyboard = new Scanner(System.in);
     System.out.println("Enter a line message");
     String s = keyboard.nextLine();
     System.out.println(s);
@@ -94,12 +116,12 @@ public class App {
 
     System.exit(0);
 
-    double sum = 1;
-    for (int n = 2; n <= 10; n++) {
-      sum += n;
-    }
+    // double sum = 1;
+    // for (int n = 2; n <= 10; n++) {
+    // sum += n;
+    // }
 
-    System.out.print(sum);
+    // System.out.print(sum);
     keyboard.close();
   }
 }
