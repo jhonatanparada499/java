@@ -33,7 +33,7 @@ public class App {
         n = keyboard.nextInt();
         done = true;
       } catch (Exception e) {
-        keyboard.nextLine(); // Study this line, because without it, the program crashes.
+        keyboard.nextLine();
         System.out.println(e.getMessage());
         System.out.println("Try Again");
       }
