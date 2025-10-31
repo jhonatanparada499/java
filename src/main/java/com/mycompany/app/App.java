@@ -33,9 +33,49 @@ public class App {
      * CHAPTER 10: File I/O
      * ========================================
      */
-
     Scanner keyboard = new Scanner(System.in);
 
+    Scanner inputStream = null;
+    PrintWriter outputStream = null;
+
+    try {
+      inputStream = new Scanner(new FileInputStream("morestuff.txt"));
+    } catch (Exception e) {
+      // TODO: handle exception
+      System.out.println(e);
+      System.exit(0);
+    }
+
+    List<Integer> numbers = new ArrayList<>();
+
+    int count = 0;
+    while (inputStream.hasNext()) {
+      if (inputStream.hasNextInt()) {
+        numbers.add(inputStream.nextInt());
+        count++;
+      } else {
+        inputStream.next();
+      }
+    }
+
+    System.out.print("Numbers found: ");
+    for (int i : numbers) {
+      System.out.print(i + ", ");
+    }
+    System.out.println();
+
+    System.exit(0);
+
+    try {
+      outputStream = new PrintWriter(new FileOutputStream("foo.txt"));
+    } catch (Exception e) {
+      // TODO: handle exception
+      System.out.println(e);
+      System.exit(0);
+    }
+
+    inputStream.close();
+    outputStream.close();
     System.exit(0);
 
     /*
