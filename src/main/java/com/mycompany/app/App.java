@@ -22,7 +22,15 @@ public class App {
   };
 
   public static void main(String[] args) {
+    /*
+     * ========================================
+     * CHAPTER 10: File I/O
+     * ========================================
+     */
+
     Scanner keyboard = new Scanner(System.in);
+
+    System.exit(0);
 
     /*
      * ========================================
