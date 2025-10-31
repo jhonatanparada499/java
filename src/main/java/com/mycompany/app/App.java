@@ -7,10 +7,14 @@ package com.mycompany.app;
 // import java.util.Random;
 import java.util.Scanner;
 import java.util.StringTokenizer;
+import java.util.InputMismatchException;
 
 import com.mycompany.app.modules.DiscountSale;
+// import com.mycompany.app.exceptions.DivisionByZero;
+// import com.mycompany.app.modules.Time;
 // import com.mycompany.app.modules.Sale;
 // import com.mycompany.app.modules.Sale;
+// import com.mycompany.app.modules.Time;
 
 public class App {
   enum WorkDay {
@@ -18,12 +22,14 @@ public class App {
   };
 
   public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in);
+
     /*
      * ========================================
      * CHAPTER 9: Exception Handling Basics
      * ========================================
      */
-    Scanner keyboard = new Scanner(System.in);
+
     int n = 0;
     boolean done = false;
 
@@ -32,8 +38,8 @@ public class App {
         System.out.print("Enter a whole number: ");
         n = keyboard.nextInt();
         done = true;
-      } catch (Exception e) {
-        keyboard.nextLine(); // Study this line, because without it, the program crashes.
+      } catch (InputMismatchException e) {
+        keyboard.nextLine();
         System.out.println(e.getMessage());
         System.out.println("Try Again");
       }
