@@ -1,5 +1,5 @@
 ## Notes from Absolute Java Book
 
-**Skipped pages**: 326 skipped until 364  
+**Skipped Chapters**: Recursion  
 **Current page**: 694 Recursion  
 **Class page**: 484 Encapsulation  
