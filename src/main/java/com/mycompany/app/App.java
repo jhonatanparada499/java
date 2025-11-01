@@ -13,6 +13,7 @@ import java.util.InputMismatchException;
 
 import java.io.PrintWriter;
 import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 import java.io.FileInputStream;
 
 import com.mycompany.app.modules.DiscountSale;
@@ -33,15 +34,25 @@ public class App {
      * CHAPTER 10: File I/O
      * ========================================
      */
-    Scanner keyboard = new Scanner(System.in);
 
+    Scanner keyboard = new Scanner(System.in);
     Scanner inputStream = null;
     PrintWriter outputStream = null;
+    ObjectOutputStream outputStream2 = null;
+
+    try {
+      outputStream2 = new ObjectOutputStream(new FileOutputStream("numbers.dat"));
+      outputStream2.writeInt(83);
+      outputStream2.close();
+    } catch (Exception e) {
+      System.out.println(e);
+    }
+
+    System.exit(0);
 
     try {
       inputStream = new Scanner(new FileInputStream("morestuff.txt"));
     } catch (Exception e) {
-      // TODO: handle exception
       System.out.println(e);
       System.exit(0);
     }
@@ -57,6 +68,7 @@ public class App {
         inputStream.next();
       }
     }
+    System.out.println(count);
 
     System.out.print("Numbers found: ");
     for (int i : numbers) {
@@ -69,7 +81,6 @@ public class App {
     try {
       outputStream = new PrintWriter(new FileOutputStream("foo.txt"));
     } catch (Exception e) {
-      // TODO: handle exception
       System.out.println(e);
       System.exit(0);
     }
