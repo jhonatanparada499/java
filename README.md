@@ -2,4 +2,4 @@
 
 **Skipped Chapters**: Recursion, UML and Patterns  
 **Current page**: 756 Interfaces and Inner classes  
-**Class page**: 484 Encapsulation  
+**Class page**: 756 Interfaces and Inner classes  
