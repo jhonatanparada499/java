@@ -1,5 +1,5 @@
 ## Notes from Absolute Java Book
 
 **Skipped Chapters**: The serializable Interface, The Comparable Interface, Recursion, UML and Patterns  
-**Current page**: 775  
+**Current page**: 776  
 **Class page**: 756 Interfaces and Inner classes  
