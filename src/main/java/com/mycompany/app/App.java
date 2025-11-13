@@ -36,7 +36,18 @@ public class App implements MonthNumbers {
      * CHAPTER 14: Generics and the ArrayList Class
      * ========================================
      */
+    ArrayList<String> myList = new ArrayList<>(5);
+    myList.add("One");
+    myList.add("Two");
+    myList.add("Three");
+    myList.add("Four");
+    myList.add(0, "Zero");
 
+    for (int i = 0; i < myList.size(); i++) {
+      System.out.println(myList.get(i));
+    }
+
+    System.exit(0);
     /*
      * ========================================
      * CHAPTER 13: Interfaces and Inner Classes
