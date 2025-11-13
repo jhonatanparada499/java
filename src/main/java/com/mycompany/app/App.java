@@ -31,12 +31,18 @@ public class App implements MonthNumbers {
   };
 
   public static void main(String[] args) {
+    /*
+     * ========================================
+     * CHAPTER 14: Generics and the ArrayList Class
+     * ========================================
+     */
 
     /*
      * ========================================
      * CHAPTER 13: Interfaces and Inner Classes
      * ========================================
      */
+
     // System.out.println(JANUARY);
     // BankAccount.Money balance = new BankAccount().new Money();
     // BankAccount.StaticMoney balance2 = new BankAccount.StaticMoney();
