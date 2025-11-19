@@ -66,7 +66,7 @@ public class DiscountSale extends Sale {
 
   public String toString() {
     return (getName() + " Price = $" + getPrice()
-        + " Discount = " + discount + "%\n"
+        + " Discount = " + getDiscount() + "%\n"
         + " Total cost = $" + bill());
   }
 
