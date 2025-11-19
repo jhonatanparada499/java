@@ -29,6 +29,11 @@ public class DiscountSale extends Sale {
     discount = originalObject.discount;
   }
 
+  public DiscountSale(double theDiscount) {
+    super("No Name", 0);
+    discount = theDiscount;
+  }
+
   public static void announcement() {
     System.out.println("This is the DiscountSale class.");
   }
@@ -55,7 +60,8 @@ public class DiscountSale extends Sale {
   }
 
   public double getDiscount() {
-    return discount;
+    // Discount rounded to 1 decima place
+    return Math.floor(discount * 10) / 1.0;
   }
 
   public String toString() {
