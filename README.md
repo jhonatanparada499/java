@@ -1,5 +1,5 @@
 ## Notes from Absolute Java Book
 
 **Skipped Chapters**: The serializable Interface, The Comparable Interface, Recursion, UML and Patterns  
-**Current page**: 815 The Vector Class  
+**Current page**: 816 The Vector Class  
 **Class page**: 802 Generics and the ArrayList Class  
