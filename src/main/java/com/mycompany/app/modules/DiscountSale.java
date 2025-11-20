@@ -60,7 +60,7 @@ public class DiscountSale extends Sale {
   }
 
   public double getDiscount() {
-    // Discount rounded to 1 decima place
+    // Discount rounded to 1 decimal place
     return Math.floor(discount * 10) / 1.0;
   }
 
