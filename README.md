@@ -5,6 +5,7 @@
 - The serializable Interface
 - The Comparable Interface
 - Recursion
-- UML and Patterns  
+- UML and Patterns
+
 **Current page**: 862 Linked Data Structures  
 **Class page**: 802 Generics and the ArrayList Class  
