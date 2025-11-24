@@ -1,10 +1,11 @@
 ## Notes from Absolute Java Book
 
-**Current page**: 879 Adding and Deleting Nodes  
+**Current page**: 893 The Stack Data Structure  
 
 **Class page**: 873 Iterators  
 
-**Skipped Chapters**: 
+**Skipped Chapters**:  
+- Double Linked List
 - Copy Constructors and the Clone Method - Iterators
 - The serializable Interface
 - The Comparable Interface
