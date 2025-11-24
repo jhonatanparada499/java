@@ -1,6 +1,6 @@
 ## Notes from Absolute Java Book
 
-**Current page**: 893 The Stack Data Structure  
+**Current page**: 896 The Stack Data Structure  
 
 **Class page**: 873 Iterators  
 
@@ -11,4 +11,3 @@
 - The Comparable Interface
 - Recursion
 - UML and Patterns
-
