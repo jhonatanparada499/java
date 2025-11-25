@@ -14,16 +14,13 @@ public class GuiApp {
      * CHAPTER 17: Buttons, Events and Other ...
      * ========================================
      */
-    JFrame firstWindow = new JFrame();
+    JFrame firstWindow = new JFrame("My first Window");
     firstWindow.setSize(WIDTH, HEIGHT);
     firstWindow.setVisible(true);
-    firstWindow.setDefaultCloseOperation(
-        JFrame.DO_NOTHING_ON_CLOSE);
+    firstWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-    JButton endButton = new JButton(
-        "Click to end program");
-    endButton.addActionListener(
-        new EndingListener());
+    JButton endButton = new JButton("Click to end program");
+    endButton.addActionListener(new EndingListener());
 
     firstWindow.add(endButton);
     firstWindow.setVisible(true);
