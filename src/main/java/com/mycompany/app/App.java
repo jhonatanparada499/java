@@ -4,12 +4,13 @@ package com.mycompany.app;
  * @author Jhonatan Parada <jhonatanparada499@gmail.com>
  */
 
-// import java.util.Random;
 import java.util.StringTokenizer;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.HashMap;
 import java.util.InputMismatchException;
+import java.util.Collections;
 
 import java.io.PrintWriter;
 import java.io.FileOutputStream;
@@ -24,6 +25,7 @@ import com.mycompany.app.modules.DiscountSale;
 // import com.mycompany.app.modules.Sale;
 // import com.mycompany.app.modules.Sale;
 // import com.mycompany.app.modules.Time;
+import com.mycompany.app.modules.Toy;
 
 public class App implements MonthNumbers {
   enum WorkDay {
@@ -31,11 +33,40 @@ public class App implements MonthNumbers {
   };
 
   public static void main(String[] args) {
+
+    /*
+     * ========================================
+     * CHAPTER 16: Collections
+     * ========================================
+     */
+
+    HashMap<String, Integer> database = new HashMap<>();
+    database.put("Jhon", 1);
+    System.out.println(database.get("Jhon").toString());
+    System.exit(0);
+
     /*
      * ========================================
      * CHAPTER 14: Generics and the ArrayList Class
      * ========================================
      */
+
+    ArrayList<Integer> list = new ArrayList<>();
+
+    for (int i = 0; i < 10; i++) {
+      double random = (Math.random() * 100) + 1;
+      int intRandom = (int) random;
+      list.add(intRandom);
+    }
+    Collections.sort(list);
+    System.out.println(list);
+
+    Toy t1 = new Toy("Chucky", 1);
+
+    DiscountSale d1 = new DiscountSale(1.3489532);
+    System.out.println(d1);
+    System.exit(0);
+
     ArrayList<String> myList = new ArrayList<>(5);
     myList.add("One");
     myList.add("Two");
@@ -150,7 +181,7 @@ public class App implements MonthNumbers {
      * ========================================
      */
     // Sale s1 = new Sale();
-    DiscountSale d1 = new DiscountSale();
+    // DiscountSale d1 = new DiscountSale();
 
     System.out.println(d1);
 
