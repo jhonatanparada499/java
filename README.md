@@ -1,6 +1,6 @@
 ## Notes from Absolute Java Book
 
-**Current page**: 968   
+**Current page**: 981 Swing 1   
 
 **Class page**: 873 Iterators  
 
