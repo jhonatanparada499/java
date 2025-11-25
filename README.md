@@ -1,6 +1,6 @@
 ## Notes from Absolute Java Book
 
-**Current page**: 904 The Stack Data Structure  
+**Current page**: 906   
 
 **Class page**: 873 Iterators  
 
