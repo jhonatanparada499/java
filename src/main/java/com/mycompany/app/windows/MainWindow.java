@@ -1,9 +1,14 @@
 package com.mycompany.app.windows;
 
+// graphical
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 
+// layout
+import java.awt.BorderLayout;
+
+// listeners
 import com.mycompany.app.listeners.EndingListener;
 
 public class MainWindow extends JFrame {
@@ -19,10 +24,10 @@ public class MainWindow extends JFrame {
 
     JLabel label = new JLabel("Hello World");
 
-    // JButton endButton = new JButton("Click to end program");
-    // endButton.addActionListener(new EndingListener());
-    //
-    // add(endButton);
+    JButton endButton = new JButton("Click to end program");
+    endButton.addActionListener(new EndingListener());
+
+    add(endButton);
     add(label);
   }
 }
