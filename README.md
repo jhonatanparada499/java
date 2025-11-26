@@ -1,6 +1,6 @@
 ## Notes from Absolute Java Book
 
-**Current page**: 1000  
+**Current page**: 1003  
 
 **Class page**: 873 Iterators  
 
