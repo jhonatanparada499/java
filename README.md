@@ -1,6 +1,6 @@
 ## Notes from Absolute Java Book
 
-**Current page**: 1011 Border Layout Managers  
+**Current page**: 1012 Border Layout Managers  
 
 **Class page**: 873 Iterators  
 
